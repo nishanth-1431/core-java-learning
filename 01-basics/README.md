@@ -5,9 +5,6 @@ This folder contains programs covering fundamental Java concepts:
 - Variables and data types
 - Operators
 - User input with Scanner
-- if / else / nested if
-- String comparison
-- Ternary operator
 
 ## Files
 | File | Description |
