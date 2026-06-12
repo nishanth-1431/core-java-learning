@@ -1,3 +1,4 @@
+// Write a Java program to store two integer values and print their sum.
 import java.util.Scanner;
 public class problem2
  {

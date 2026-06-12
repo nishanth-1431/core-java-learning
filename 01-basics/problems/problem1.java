@@ -1,3 +1,4 @@
+//	Write a Java program to print your name, department, and college name.
 import java.util.Scanner;
 public class problem1 {
         public static void main(String[] args){
