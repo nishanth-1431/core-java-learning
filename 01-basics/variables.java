@@ -9,7 +9,7 @@ public class variables {
         int a = 10;           // integer variable
         double b = 3.14;      // double variable
         char c = 'A';         // character variable
-        String d = "Hello";   // string variable
+        String d = "Hello";   // string variable and string must be in double quotes("")
         boolean e = true;     // boolean variable
 
         System.out.println("Integer: " + a);
