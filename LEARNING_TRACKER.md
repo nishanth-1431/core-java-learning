@@ -1,17 +1,15 @@
 # 🚀 Core Java Learning Tracker — Nishanth
 
 > **Goal:** Master Core Java → Data Structures → Java Backend  
-> **Style:** Vibe Learning 🎧 — code first, theory light  
-> **Started:** March 11, 2026
 
 ---
 
 ## 📦 FOUNDATION REVISION
-- [ ] 1. Java program structure
-- [ ] 2. JVM, JRE, JDK
-- [ ] 3. Variables and data types
-- [ ] 4. Operators
-- [ ] 5. User input using Scanner
+- [0] 1. Java program structure
+- [0] 2. JVM, JRE, JDK
+- [0] 3. Variables and data types
+- [0] 4. Operators
+- [0] 5. User input using Scanner
 - [ ] 6. if / else / nested if
 - [ ] 7. String comparison
 - [ ] 8. Ternary operator
@@ -74,5 +72,3 @@
 _(will be added as we go)_
 
 ---
-
-> **Current Topic:** Foundation Revision — Topic 1: Java Program Structure
