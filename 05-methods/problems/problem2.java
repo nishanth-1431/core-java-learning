@@ -22,6 +22,4 @@ public class problem2 {
         int weight =sc.nextInt();
         eligiblity(age,weight);
     }
-
-    
 }

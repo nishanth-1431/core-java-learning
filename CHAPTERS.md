@@ -1,161 +1,78 @@
-# ☕ Core Java — Complete Chapter Guide
+# Core Java — Chapter Guide
 
-> **Author:** Nishanth
-> **Goal:** Master Core Java → Data Structures → Java Backend
-> **Style:** Watch YouTube → Practice here → Push to GitHub
+Learning path based on the class notes (java_notes.pptx). Each folder maps to one topic section.
 
 ---
 
-## 🔄 Phase 1: Foundation Revision
+## Phase 1 — Basics
 
-| Ch | Topic | YouTube Search | Folder | Status |
-|---|---|---|---|---|
-| 1 | Java Program Structure | "Java program structure explained" | `01-basics/` | ⬜ |
-| 2 | Variables & Data Types | "Java variables and data types" | `01-basics/` | ⬜ |
-| 3 | Operators | "Java operators tutorial" | `01-basics/` | ⬜ |
-| 4 | Scanner (User Input) | "Java Scanner class input" | `01-basics/` | ⬜ |
-| 5 | if / else / nested if | "Java if else tutorial" | `02-control-flow/` | ⬜ |
-| 6 | String comparison | "Java string equals vs ==" | `02-control-flow/` | ⬜ |
-| 7 | Ternary operator | "Java ternary operator" | `02-control-flow/` | ⬜ |
-| 8 | for loop | "Java for loop tutorial" | `03-loops/` | ⬜ |
+| # | Topic | Folder |
+|---|-------|--------|
+| 1 | Java program structure, JVM/JRE/JDK | `01-basics/` |
+| 2 | Variables, data types, operators | `01-basics/` |
+| 3 | User input — Scanner, DataInputStream | `01-basics/` |
+| 4 | Control flow — if, else-if, nested if, switch | `02-control-flow/` |
+| 5 | Loops — for, while, do-while, nested | `03-loops/` |
+| 6 | Arrays — 1D, 2D, traversal, algorithms | `04-arrays/` |
 
 ---
 
-## 🔥 Phase 2: Core Logic Building
+## Phase 2 — Methods & Functions
 
-| Ch | Topic | YouTube Search | Folder | Status |
-|---|---|---|---|---|
-| 9 | Arrays | "Java arrays tutorial for beginners" | `04-arrays/` | ⬜ |
-| 10 | Nested loops | "Java nested loops and patterns" | `03-loops/` | ⬜ |
-| 11 | While loop | "Java while loop tutorial" | `03-loops/` | ⬜ |
-| 12 | Do-while loop | "Java do while loop" | `03-loops/` | ⬜ |
-
-> 🏗️ **Mini Project:** After completing Phase 2, build a small project combining arrays + loops.
+| # | Topic | Folder |
+|---|-------|--------|
+| 7 | Methods — defining, parameters, return values | `05-methods/` |
+| 8 | Method overloading | `05-methods/` |
+| 9 | Recursion — base case, recursive case | `06-recursion/` |
 
 ---
 
-## ⚙️ Phase 3: Methods & Reusability
+## Phase 3 — Strings
 
-| Ch | Topic | YouTube Search | Folder | Status |
-|---|---|---|---|---|
-| 13 | Methods / Functions | "Java methods tutorial" | `05-methods/` | ⬜ |
-| 14 | Methods with parameters | "Java method parameters and arguments" | `05-methods/` | ⬜ |
-| 15 | Return keyword | "Java return statement explained" | `05-methods/` | ⬜ |
-| 16 | Method overloading | "Java method overloading" | `05-methods/` | ⬜ |
-| 17 | Recursion | "Java recursion tutorial" | `06-recursion/` | ⬜ |
-
-> 🏗️ **Mini Project:** Build something using methods + recursion.
+| # | Topic | Folder |
+|---|-------|--------|
+| 10 | String — declaration, methods, comparison | `07-strings/` |
+| 11 | String vs StringBuffer vs StringBuilder | `07-strings/` |
 
 ---
 
-## 🏗️ Phase 4: OOP — Object-Oriented Programming
+## Phase 4 — OOP
 
-| Ch | Topic | YouTube Search | Folder | Status |
-|---|---|---|---|---|
-| 18 | Classes and Objects | "Java classes and objects tutorial" | `07-oop/` | ⬜ |
-| 19 | Encapsulation | "Java encapsulation getters setters" | `07-oop/` | ⬜ |
-| 20 | Constructors | "Java constructors tutorial" | `07-oop/` | ⬜ |
-| 21 | Constructor overloading | "Java constructor overloading" | `07-oop/` | ⬜ |
-| 22 | this keyword | "Java this keyword explained" | `07-oop/` | ⬜ |
-
-> 🏗️ **Mini Project:** Build a Student/Bank Account system using OOP.
-
----
-
-## 🧬 Phase 5: Inheritance & Abstraction
-
-| Ch | Topic | YouTube Search | Folder | Status |
-|---|---|---|---|---|
-| 23 | Inheritance | "Java inheritance tutorial" | `08-inheritance/` | ⬜ |
-| 24 | Method overriding | "Java method overriding" | `08-inheritance/` | ⬜ |
-| 25 | super keyword | "Java super keyword" | `08-inheritance/` | ⬜ |
-| 26 | Types of inheritance | "Java types of inheritance" | `08-inheritance/` | ⬜ |
-| 27 | Abstract classes | "Java abstract class tutorial" | `08-inheritance/` | ⬜ |
-| 28 | Interfaces | "Java interface tutorial" | `08-inheritance/` | ⬜ |
-| 29 | Multiple inheritance | "Java multiple inheritance interface" | `08-inheritance/` | ⬜ |
-
-> 🏗️ **Mini Project:** Build a Vehicle/Shape hierarchy using inheritance.
+| # | Topic | Folder |
+|---|-------|--------|
+| 12 | Classes and objects | `08-oop/` |
+| 13 | Access modifiers | `08-oop/` |
+| 14 | Inheritance — types, extends | `09-inheritance/` |
+| 15 | Polymorphism — overloading, overriding | `10-polymorphism/` |
+| 16 | Abstraction — abstract class, interface | `11-abstraction/` |
+| 17 | Aggregation — HAS-A relationship | `12-aggregation/` |
+| 18 | Encapsulation — getters, setters, this, super, final | `13-encapsulation/` |
+| 19 | Constructors — default, parameterized, overloading, copy | `14-constructors/` |
 
 ---
 
-## 🔐 Phase 6: Important Keywords & Modifiers
+## Phase 5 — Error Handling & Advanced
 
-| Ch | Topic | YouTube Search | Folder | Status |
-|---|---|---|---|---|
-| 30 | Access modifiers | "Java access modifiers public private" | `07-oop/` | ⬜ |
-| 31 | static keyword | "Java static keyword tutorial" | `07-oop/` | ⬜ |
-| 32 | final keyword | "Java final keyword" | `07-oop/` | ⬜ |
-
----
-
-## ⚠️ Phase 7: Exception Handling
-
-| Ch | Topic | YouTube Search | Folder | Status |
-|---|---|---|---|---|
-| 33 | Exception handling intro | "Java exception handling tutorial" | `09-exceptions/` | ⬜ |
-| 34 | try / catch / finally | "Java try catch finally" | `09-exceptions/` | ⬜ |
-| 35 | throw and throws | "Java throw vs throws" | `09-exceptions/` | ⬜ |
-| 36 | Custom exceptions | "Java custom exception class" | `09-exceptions/` | ⬜ |
+| # | Topic | Folder |
+|---|-------|--------|
+| 20 | Exception handling — try, catch, finally, throw, throws, custom | `15-exceptions/` |
+| 21 | Wrapper classes — autoboxing, unboxing | `16-wrapper-classes/` |
+| 22 | Multithreading — Thread, Runnable, lifecycle, sync | `17-threads/` |
 
 ---
 
-## 📁 Phase 8: Strings & Advanced Topics
+## Phase 6 — Collections & File I/O
 
-| Ch | Topic | YouTube Search | Folder | Status |
-|---|---|---|---|---|
-| 37 | String methods | "Java string methods tutorial" | `10-strings/` | ⬜ |
-| 38 | StringBuilder | "Java StringBuilder tutorial" | `10-strings/` | ⬜ |
-| 39 | Wrapper classes | "Java wrapper classes autoboxing" | `01-basics/` | ⬜ |
-| 40 | ArrayList & LinkedList | "Java ArrayList tutorial" | `11-collections/` | ⬜ |
-| 41 | HashSet & HashMap | "Java HashMap HashSet tutorial" | `11-collections/` | ⬜ |
-| 42 | Iterators | "Java iterator tutorial" | `11-collections/` | ⬜ |
-| 43 | Enums | "Java enum tutorial" | `07-oop/` | ⬜ |
+| # | Topic | Folder |
+|---|-------|--------|
+| 23 | Collections — ArrayList, LinkedList, HashSet, HashMap | `18-collections/` |
+| 24 | File handling — read, write, FileNotFoundException | `19-file-handling/` |
 
 ---
 
-## 📂 Phase 9: File Handling & Multithreading
+## How to use this
 
-| Ch | Topic | YouTube Search | Folder | Status |
-|---|---|---|---|---|
-| 44 | File handling | "Java file reading writing tutorial" | `12-file-handling/` | ⬜ |
-| 45 | Multithreading | "Java multithreading tutorial" | `13-threads/` | ⬜ |
-| 46 | Runnable & Thread lifecycle | "Java Runnable interface thread" | `13-threads/` | ⬜ |
-| 47 | sleep() and join() | "Java thread sleep join" | `13-threads/` | ⬜ |
-
-> 🏗️ **Final Project:** Build a complete mini-application using everything learned.
-
----
-
-## 🎯 Workflow for Each Chapter
-
-```
-1. 📺  Watch the YouTube video on the topic
-2. 💬  Come here and say "I learned [topic]"
-3. 🧠  I'll give you practice exercises
-4. ✍️  Write the code in the correct folder
-5. 🔍  I'll review your code and give feedback
-6. 📤  Push to GitHub:
-       git add -A
-       git commit -m "Add [topic] practice programs"
-       git push
-7. ➡️  Move to the next chapter!
-```
-
----
-
-## ✍️ Clean Commit Message Examples
-
-```
-✅ "Add variables and data types practice"
-✅ "Solve array reverse exercise"
-✅ "Add bank account OOP mini project"
-✅ "Complete exception handling exercises"
-
-❌ "update"
-❌ "stuff"
-❌ "fixed"
-```
-
----
-
-> *Mark each chapter with ✅ as you complete it. Let's gooo!* 🚀
+1. Pick the next unchecked topic from the tracker
+2. Write code in the correct folder
+3. Commit with a descriptive message
+4. Mark it done in LEARNING_TRACKER.md

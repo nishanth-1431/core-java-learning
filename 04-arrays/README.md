@@ -1,7 +1,10 @@
-# 📦 04 - Arrays
+# 04 - Arrays
 
-Programs covering arrays in Java:
-- Array declaration and initialization
-- Array traversal
-- Array algorithms (search, sort, reverse)
-- 2D arrays
+Storing multiple values in a single variable instead of creating a new variable for each one.
+
+Topics covered:
+- Declaring and initializing arrays
+- Accessing elements by index
+- Looping through arrays
+- Common operations — reverse, search, sort
+- 2D arrays (arrays inside arrays)

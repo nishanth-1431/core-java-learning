@@ -1,6 +1,9 @@
-# 🔄 06 - Recursion
+# 06 - Recursion
 
-Programs covering recursive thinking:
-- Base case and recursive case
-- Factorial, Fibonacci
-- Recursive algorithms
+A function that calls itself to solve a smaller version of the same problem.
+
+Topics covered:
+- Base case — when the function stops calling itself
+- Recursive case — the step that reduces the problem
+- Classic examples: factorial, Fibonacci, sum of digits
+- How the call stack works with recursion
