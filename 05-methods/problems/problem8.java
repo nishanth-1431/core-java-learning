@@ -27,9 +27,7 @@ public class problem8 {
              else{
                 return"High risk";
              }
-        
     }
-       
    }
    public static void main(String[] args) {
          Scanner sc = new Scanner(System.in);
@@ -41,5 +39,4 @@ public class problem8 {
          String risk = insurance(age, accidents);
          System.out.printf("RISK STATUS           : %s%n ",risk);
    }
-
 }
