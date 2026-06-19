@@ -21,6 +21,6 @@ public class problem2 {
         System.out.println("The middle letter of String   : "+ middle);
         }
         char last = str.charAt(length-1);
-        System.out.println("The last letter of String     : "+first);
+        System.out.println("The last letter of String     : "+last);
     }
 }
