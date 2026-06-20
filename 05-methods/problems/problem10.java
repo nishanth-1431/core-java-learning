@@ -20,10 +20,10 @@ public class problem10{
         Scanner sc = new Scanner(System.in);
         System.out.println("-----Scholarship Eligibility-----");
         System.out.print("Enter your marks         :");
-        int age = sc.nextInt();
+        int marks = sc.nextInt();
         System.out.print("Enter your family income :");
         int income = sc.nextInt();
-        String status = eligiblity(age, income);
+        String status = eligiblity( marks , income);
         System.out.println("you are eligible for "+status);
     }
 }
