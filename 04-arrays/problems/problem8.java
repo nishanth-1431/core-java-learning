@@ -1,5 +1,3 @@
-
-
 /* 8. Count the number of even and odd elements in an array.
 Topics: modulus operator (%), if-else, counter variables
  */
