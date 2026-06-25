@@ -12,7 +12,7 @@
  */
 public class arrayoperations {
     public static void main(String[] args) {
-        
+
         int[] arr = {1, 2, 3, 4};  
 
         // aaccesing 4th element 
@@ -31,5 +31,6 @@ public class arrayoperations {
 
         //size of array using .length 
         System.out.println("Size of array: " + arr.length);
+        
     }
 }
