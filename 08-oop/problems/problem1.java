@@ -28,6 +28,14 @@ class student{
 public class problem1 {
    public static void main(String[] args) {
         student s1 = new student();
-        s1.display(); 
+       // Approach 1: Using a method
+      s1.display();
+
+      // OR
+
+      // Approach 2: Accessing instance variables directly
+      System.out.println("Name of Student       : " + s1.name);
+      System.out.println("Age of Student        : " + s1.age);
+      System.out.println("Department of Student : " + s1.dept);
    }
 }
