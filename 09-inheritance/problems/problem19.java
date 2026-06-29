@@ -13,7 +13,7 @@ class Account {
     void displayAccount() {
         System.out.println("Account Holder : " + accountHolder);
         System.out.println("Account Number : " + accountNumber);
-        System.out.println("Balance        : ₹" + balance);
+        System.out.println("Balance        : Rs." + balance);
     }
 }
 
@@ -22,7 +22,7 @@ class SavingsAccount extends Account {
 
     void calculateInterest() {
         double interest = (balance * interestRate) / 100;
-        System.out.println("Interest Earned : ₹" + interest);
+        System.out.println("Interest Earned : Rs." + interest);
     }
 }
 
@@ -30,7 +30,7 @@ class CurrentAccount extends Account {
     double overdraftLimit;
 
     void showOverdraft() {
-        System.out.println("Overdraft Limit : ₹" + overdraftLimit);
+        System.out.println("Overdraft Limit : Rs." + overdraftLimit);
     }
 }
 
@@ -73,7 +73,7 @@ public class problem19 {
 
         System.out.println("\n===== Loan Account =====");
         la.displayAccount();
-        System.out.println("Loan Amount : ₹" + la.loanAmount);
+        System.out.println("Loan Amount : Rs." + la.loanAmount);
         la.payEMI();
     }
 }
