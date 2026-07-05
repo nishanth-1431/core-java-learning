@@ -54,6 +54,19 @@ public class compile_time {
         obj.add(5.5, 2.5);
     }
 }
+/*
+Real Time Example:
+  Mobile Recharge
+  Same recharge option behaves differently.
+  Recharge:
+  ₹199 → 28 days
+  ₹399 → 56 days
+  ₹699 → 84 days
+  Same recharge name → Different behavior.
+  Programming Example
+  print() print("Hello") print(100)
+  Same method name → Different inputs.
+   */
 
 
 
