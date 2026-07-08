@@ -1,4 +1,9 @@
-/*  */
+/*  Problem 4 – Greeting Application (Method Overloading)
+Create a Greeting class and overload the greet() method to:
+•	Display a general greeting
+•	Greet a person using their name
+•	Greet a person using their name and city
+*/
 public class problem4 {
 
     // General greeting
