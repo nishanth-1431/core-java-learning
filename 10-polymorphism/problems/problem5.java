@@ -1,4 +1,10 @@
-class TemperatureConverter {
+/*Problem 5 – Temperature Converter (Method Overloading)
+Create a TemperatureConverter class and overload the convert() method to convert:
+•	Celsius to Fahrenheit
+•	Fahrenheit to Celsius
+•	Celsius to Kelvin
+
+*/class TemperatureConverter {
 
     // Celsius to Fahrenheit
     double convert(double celsius) {
