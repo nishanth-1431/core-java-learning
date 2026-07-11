@@ -1,3 +1,6 @@
+/*Problem 10 – Payment System (Method Overriding)
+Create a parent class Payment with a method pay(). Create child classes UPI, CreditCard, and Cash that override the pay() method.
+ */
 class Payment {
     public void pay() {
         System.out.println("Processing payment...");
