@@ -1,4 +1,4 @@
-# 04 - Arrays
+# 04 - Arrays:
 
 Storing multiple values in a single variable instead of creating a new variable for each one.
 
