@@ -1,5 +1,7 @@
 /*Problem 12 – Notification Service (Runtime Polymorphism)
-Create a parent class Notification with a method send(). Create child classes EmailNotification, SMSNotification, and PushNotification that override the send() method. Store all objects in an array of Notification and call the method using a loop.
+Create a parent class Notification with a method send(). Create child classes EmailNotification,
+ SMSNotification, and PushNotification that override the send() method. Store all objects in an 
+ array of Notification and call the method using a loop.
  */
 class Notification {
     public void send() {

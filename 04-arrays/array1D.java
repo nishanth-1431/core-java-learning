@@ -16,6 +16,8 @@ public class array1D {
         arr[4] = 4;
 
         // Accessing elements
+
+        
         System.out.println("Element at index 0 : " + arr[0]);
         System.out.println("Element at index 3 : " + arr[3]);
 
