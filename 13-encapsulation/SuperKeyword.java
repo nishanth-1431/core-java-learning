@@ -1,37 +1,33 @@
-/*
-    Topic 13 - Encapsulation
-    Topic 5 - super Keyword
+/* super Keyword Definition:
 
-    Definition:
+        The 'super' keyword refers to the immediate parent class
+        of the current object.
 
-    The 'super' keyword refers to the immediate parent class
-    of the current object.
-
-    It is mainly used to access members of the parent class.
+        It is mainly used to access members of the parent class.
 
     Syntax:
 
-    super.variable;
-    super.method();
+        super.variable;
+        super.method();
 
     Technical Explanation:
 
-    When a child class has a variable or method with the same
-    name as the parent class, 'super' can be used to specifically
-    access the parent class member.
+        When a child class has a variable or method with the same
+        name as the parent class, 'super' can be used to specifically
+        access the parent class member.
 
-    'this' refers to the current class object.
+        'this' refers to the current class object.
 
-    'super' refers to the parent class.
+        'super' refers to the parent class.
 
     Example:
 
-    Parent
-       ↑
-    Child
+        Parent
+        ↑
+        Child
 
-    this  → current class
-    super → parent class
+        this  → current class
+        super → parent class
 */
 
 class Animal {
