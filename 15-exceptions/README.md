@@ -11,4 +11,4 @@ Topics covered:
 - Nested try blocks
 - throw — manually throwing an exception
 - throws — declaring that a method might throw an exception
-- Custom exceptions — creating your own exception class
+- Custom exceptions — creating your own exception class.
