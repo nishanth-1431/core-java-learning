@@ -68,3 +68,19 @@ public class finallyBlock {
         System.out.println("Program Ended");
     }
 }
+/* The easiest way to remember it
+
+        Think about the three keywords as a project workflow:
+
+        try
+        ↓
+        "Let's attempt this risky operation."
+
+        catch
+        ↓
+        "Something went wrong. Handle it."
+
+        finally
+        ↓
+        "Whatever happened, clean up." 
+*/
