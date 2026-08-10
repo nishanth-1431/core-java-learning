@@ -1,4 +1,11 @@
 # 16 - Wrapper Classes
+    │
+    ├── wrapperBasics.java
+    ├── autoboxing.java
+    ├── unboxing.java
+    ├── wrapperMethods.java
+    ├── wrapperComparison.java
+    └── wrapperCollections.java
 
 Java collections can only store objects, not primitives like int or double. Wrapper classes solve this by wrapping primitives into objects.
 
@@ -8,3 +15,5 @@ Topics covered:
 - Unboxing — Java automatically converts a wrapper object back to a primitive
 - Useful methods from wrapper classes — parseInt, valueOf, toString, compareTo
 - Why wrapper classes matter for collections like ArrayList
+
+
