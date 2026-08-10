@@ -41,31 +41,50 @@
 */
 
 public class wrapperBasics {
-
     public static void main(String[] args) {
 
         // Primitive values
-        int number = 10;
-        double price = 99.99;
-        char grade = 'A';
-        boolean passed = true;
+        byte byteValue = 10;
+        short shortValue = 20;
+        int intValue = 30;
+        long longValue = 40L;
+        float floatValue = 50.5f;
+        double doubleValue = 60.5;
+        char charValue = 'A';
+        boolean booleanValue = true;
 
-        // Wrapper objects
-        Integer numberObject = 10;
-        Double priceObject = 99.99;
-        Character gradeObject = 'A';
-        Boolean passedObject = true;
+        // Corresponding wrapper objects
+        Byte byteObject = 10;
+        Short shortObject = 20;
+        Integer intObject = 30;
+        Long longObject = 40L;
+        Float floatObject = 50.5f;
+        Double doubleObject = 60.5;
+        Character charObject = 'A';
+        Boolean booleanObject = true;
 
-        System.out.println("Primitive int: " + number);
-        System.out.println("Wrapper Integer: " + numberObject);
+        System.out.println("Primitive byte: " + byteValue);
+        System.out.println("Wrapper Byte: " + byteObject);
 
-        System.out.println("Primitive double: " + price);
-        System.out.println("Wrapper Double: " + priceObject);
+        System.out.println("Primitive short: " + shortValue);
+        System.out.println("Wrapper Short: " + shortObject);
 
-        System.out.println("Primitive char: " + grade);
-        System.out.println("Wrapper Character: " + gradeObject);
+        System.out.println("Primitive int: " + intValue);
+        System.out.println("Wrapper Integer: " + intObject);
 
-        System.out.println("Primitive boolean: " + passed);
-        System.out.println("Wrapper Boolean: " + passedObject);
+        System.out.println("Primitive long: " + longValue);
+        System.out.println("Wrapper Long: " + longObject);
+
+        System.out.println("Primitive float: " + floatValue);
+        System.out.println("Wrapper Float: " + floatObject);
+
+        System.out.println("Primitive double: " + doubleValue);
+        System.out.println("Wrapper Double: " + doubleObject);
+
+        System.out.println("Primitive char: " + charValue);
+        System.out.println("Wrapper Character: " + charObject);
+
+        System.out.println("Primitive boolean: " + booleanValue);
+        System.out.println("Wrapper Boolean: " + booleanObject);
     }
 }
