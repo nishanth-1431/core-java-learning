@@ -87,5 +87,3 @@ Multithreading is the process of executing multiple threads concurrently within 
 | ------------------------------------------------------------------ | -------------------------------------- |
 | [executorFramework.java](17-Multithreading/executorFramework.java) | Introduction to the Executor Framework |
 | [executorService.java](17-Multithreading/executorService.java)     | Managing tasks using `ExecutorService` |
-
-
