@@ -20,7 +20,7 @@ Syntax:
     thread.start();
 
 Important Methods:
-
+ 
     start()
         Starts a new thread and causes the run() method to
         execute in that new thread.
