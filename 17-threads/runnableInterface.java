@@ -70,7 +70,7 @@ class MyTask implements Runnable {
 public class runnableInterface {
 
     public static void main(String[] args) {
-
+ 
         // Creating the task
         MyTask task = new MyTask();
 
