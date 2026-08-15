@@ -58,7 +58,6 @@ class MyThread extends Thread {
     // Task that will be performed by the new thread
     @Override
     public void run() {
-
         System.out.println("Child thread is running");
     }
 }
@@ -75,7 +74,6 @@ public class creatingThread {
 
         // Starting the new thread
         thread.start();
-
         System.out.println("Main thread continues");
     }
 }
