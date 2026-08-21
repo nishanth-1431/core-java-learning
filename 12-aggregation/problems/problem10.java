@@ -21,7 +21,6 @@ class Student {
         System.out.println();
     }
 }
-
 class University {
 
     String universityName;
