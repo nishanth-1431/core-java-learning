@@ -59,7 +59,6 @@ class Order {
         products[index] = null;
     }
 }
-
 public class problem9 {
 
     public static void main(String[] args) {
