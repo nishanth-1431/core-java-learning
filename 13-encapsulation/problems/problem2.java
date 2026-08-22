@@ -41,6 +41,7 @@ class BankAccount{
 }
 public class problem2 {
    public static void main(String[] args) {
+    
     BankAccount account = new BankAccount();
 
     account.updateAccountNumber(101);
