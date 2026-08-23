@@ -53,7 +53,7 @@ public class problem3 {
     public static void main(String[] args) {
     Restaurant restaurant = new Restaurant();
 
-    restaurant.updateRestaurantId(101);
+    // restaurant.updateRestaurantId(101); this cant be updated cause we didnt create a setter for Restaurant Id
     restaurant.updateName("Anjappar");
     restaurant.updateLocation("Coimbatore");
     restaurant.updateRating(4.5);
