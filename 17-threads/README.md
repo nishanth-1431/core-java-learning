@@ -5,84 +5,71 @@ Multithreading is the process of executing multiple threads concurrently within 
 ## Topics Covered
 
 * **Thread Basics** — Understanding threads and the main thread
-* **Thread Creation** — Creating threads using the `Thread` class
-* **Runnable Interface** — Creating threads using `Runnable`
-* **Thread Lifecycle** — Understanding thread states and transitions
-* **Synchronization** — Managing shared resources and preventing race conditions
-* **Inter-Thread Communication** — Using `wait()`, `notify()`, and `notifyAll()`
-* **Executor Framework** — Efficiently managing and executing multiple threads
+* **Thread Creation** — Creating multiple concurrent threads using `Thread`
+* **Thread Priority & Sleep** — Managing thread priorities (`setPriority`, `getPriority`) and `Thread.sleep()`
+* **Runnable Interface** — `Runnable` vs `Thread` and Lambda expressions
+* **Synchronization** — Race conditions, mutex, and `synchronized` keyword
+* **Thread Lifecycle** — Thread states (`NEW`, `RUNNABLE`, `BLOCKED`, `WAITING`, `TIMED_WAITING`, `TERMINATED`)
+* **Inter-Thread Communication** — Coordination using `wait()`, `notify()`, and `notifyAll()`
+* **Executor Framework** — Efficient thread management using `ExecutorService` and Thread Pools
 
 ---
 
 ## Project Structure
 
+```text
 17-Multithreading/
 │
 ├── threadBasics.java
-│
-├── creatingThread.java
-├── threadClass.java
+├── threadCreation.java
+├── threadPriorityAndSleep.java
 ├── runnableInterface.java
-│
+├── synchronization.java
 ├── threadLifecycle.java
-│
-├── synchronizationBasics.java
-├── synchronizedMethod.java
-├── synchronizedBlock.java
-│
 ├── interThreadCommunication.java
-├── waitMethod.java
-├── notifyMethod.java
-├── notifyAllMethod.java
-│
-├── executorFramework.java
-├── executorService.java
-
+└── executorFramework.java
 ```
+
 ---
 
 ## Source Files
 
-### Thread Basics
+### 1. Thread Basics
+| File | Description |
+| ---- | ----------- |
+| [threadBasics.java](threadBasics.java) | Introduction to threads, thread execution concepts, and the main thread |
 
-| File                                                     | Description                                 |
-| -------------------------------------------------------- | ------------------------------------------- |
-| [threadBasics.java](17-Multithreading/threadBasics.java) | Introduction to threads and the main thread |
+### 2. Thread Creation & Multiple Threads
+| File | Description |
+| ---- | ----------- |
+| [threadCreation.java](threadCreation.java) | Creating multiple concurrent threads by extending the `Thread` class |
 
-### Creating Threads
+### 3. Thread Priority & Sleep
+| File | Description |
+| ---- | ----------- |
+| [threadPriorityAndSleep.java](threadPriorityAndSleep.java) | Setting thread priorities (`setPriority`, `getPriority`) and using `Thread.sleep()` |
 
-| File                                                               | Description                                       |
-| ------------------------------------------------------------------ | ------------------------------------------------- |
-| [creatingThread.java](17-Multithreading/creatingThread.java)       | Basic approach to creating threads                |
-| [threadClass.java](17-Multithreading/threadClass.java)             | Creating a thread by extending the `Thread` class |
-| [runnableInterface.java](17-Multithreading/runnableInterface.java) | Creating a thread using the `Runnable` interface  |
+### 4. Runnable Interface vs Thread
+| File | Description |
+| ---- | ----------- |
+| [runnableInterface.java](runnableInterface.java) | Implementing `Runnable`, task vs thread separation, and Lambda expressions |
 
-### Thread Lifecycle
+### 5. Synchronization & Race Condition
+| File | Description |
+| ---- | ----------- |
+| [synchronization.java](synchronization.java) | Race conditions, thread safety, and synchronized methods/blocks |
 
-| File                                                           | Description                                        |
-| -------------------------------------------------------------- | -------------------------------------------------- |
-| [threadLifecycle.java](17-Multithreading/threadLifecycle.java) | Understanding the lifecycle and states of a thread |
+### 6. Thread Lifecycle & States
+| File | Description |
+| ---- | ----------- |
+| [threadLifecycle.java](threadLifecycle.java) | Understanding thread states (`NEW`, `RUNNABLE`, `BLOCKED`, `WAITING`, `TIMED_WAITING`, `TERMINATED`) |
 
-### Synchronization
+### 7. Inter-Thread Communication
+| File | Description |
+| ---- | ----------- |
+| [interThreadCommunication.java](interThreadCommunication.java) | Thread coordination using `wait()`, `notify()`, and `notifyAll()` |
 
-| File                                                                       | Description                                         |
-| -------------------------------------------------------------------------- | --------------------------------------------------- |
-| [synchronizationBasics.java](17-Multithreading/synchronizationBasics.java) | Introduction to synchronization and race conditions |
-| [synchronizedMethod.java](17-Multithreading/synchronizedMethod.java)       | Synchronizing an entire method                      |
-| [synchronizedBlock.java](17-Multithreading/synchronizedBlock.java)         | Synchronizing a specific block of code              |
-
-### Inter-Thread Communication
-
-| File                                                                             | Description                                   |
-| -------------------------------------------------------------------------------- | --------------------------------------------- |
-| [interThreadCommunication.java](17-Multithreading/interThreadCommunication.java) | Introduction to communication between threads |
-| [waitMethod.java](17-Multithreading/waitMethod.java)                             | Using `wait()` for thread coordination        |
-| [notifyMethod.java](17-Multithreading/notifyMethod.java)                         | Using `notify()` to wake a waiting thread     |
-| [notifyAllMethod.java](17-Multithreading/notifyAllMethod.java)                   | Using `notifyAll()` to wake waiting threads   |
-
-### Executor Framework
-
-| File                                                               | Description                            |
-| ------------------------------------------------------------------ | -------------------------------------- |
-| [executorFramework.java](17-Multithreading/executorFramework.java) | Introduction to the Executor Framework |
-| [executorService.java](17-Multithreading/executorService.java)     | Managing tasks using `ExecutorService` |
+### 8. Executor Framework
+| File | Description |
+| ---- | ----------- |
+| [executorFramework.java](executorFramework.java) | Managing tasks using `ExecutorService` and Thread Pools |
