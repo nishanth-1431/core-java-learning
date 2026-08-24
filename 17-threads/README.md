@@ -16,7 +16,6 @@ Multithreading is the process of executing multiple threads concurrently within 
 
 ## Project Structure
 
-```text
 17-Multithreading/
 │
 ├── threadBasics.java
