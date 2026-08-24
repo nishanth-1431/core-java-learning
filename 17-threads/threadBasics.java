@@ -1,63 +1,51 @@
 /*
-Thread Definition:
+Thread Basics:
 
-    A thread is a lightweight, independent path of execution
-    inside a program.
-
-    A Java program can contain multiple threads, allowing
-    different tasks to execute concurrently.
+    A thread is a lightweight, independent path of execution inside a program.
+    A Java program can contain multiple threads running concurrently to perform
+    different tasks simultaneously, improving performance and responsiveness.
 
 Main Thread:
 
-    When a Java program starts, the JVM automatically creates
-    a thread called the main thread.
-
+    When a Java application starts, the JVM automatically creates a primary thread
+    called the "main thread".
+    
     The main() method executes inside the main thread.
 
 Syntax:
 
-    Thread.currentThread();
+    // Get current executing thread object
+    Thread currentThread = Thread.currentThread();
 
-    This returns the currently executing thread.
-
-    Thread.currentThread().getName();
-
-    This returns the name of the currently executing thread.
-
-Example:
-
-    System.out.println(Thread.currentThread().getName());
-
-Output:
-
-    main
+    // Get name of the thread
+    String threadName = currentThread.getName();
 
 Technical Explanation:
 
-    Thread.currentThread() returns the Thread object representing
-    the thread that is currently executing the code.
-
-    getName() returns the name assigned to that thread.
-
-    Therefore:
+    • Thread.currentThread() returns the reference of the thread currently executing.
+    • getName() returns the string name assigned to the thread.
 
     Thread.currentThread().getName()
-            ↓
-    Current Thread
-            ↓
-    Thread Name
+             ↓
+    Current Thread Reference
+             ↓
+       "main" Thread Name
+
+Important:
+
+    Even a simple Java program with just main() is single-threaded, running inside the main thread created by the JVM.
 */
 
 public class threadBasics {
 
     public static void main(String[] args) {
 
-        // Getting the currently executing thread
+        // Accessing the main thread
         Thread currentThread = Thread.currentThread();
 
-        // Getting the name of the current thread
+        // Retrieving name of the current thread
         String threadName = currentThread.getName();
 
-        System.out.println("Current Thread: " + threadName);
+        System.out.println("Current Thread Name: " + threadName);
     }
 }

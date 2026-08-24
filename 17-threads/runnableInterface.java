@@ -1,83 +1,64 @@
 /*
-Runnable Interface:
+Runnable Interface vs Thread Class:
 
-    Runnable is an interface used to define a task that can
-    be executed by a thread.
+    Runnable is a functional interface in Java used to define a task that can be executed
+    by a thread.
 
-    Instead of extending the Thread class, a class can
-    implement the Runnable interface.
+Why Preferred over extending Thread?
+
+    1. Multiple Inheritance Support:
+       Java does not support multiple class inheritance. If a class extends Thread,
+       it cannot extend any other class. Implementing Runnable keeps class hierarchy flexible.
+
+    2. Separation of Tasks & Mechanics:
+       Runnable represents the task to perform, while Thread handles thread execution.
+
+    3. Lambda Expressions:
+       Since Runnable is a functional interface, it can be implemented concisely using Lambdas.
 
 Syntax:
 
+    // 1. Implementing Runnable interface
     class MyTask implements Runnable {
-
-        public void run() {
-            // Task performed by the thread
-        }
+        public void run() { ... }
     }
+    Thread t1 = new Thread(new MyTask());
 
-    MyTask task = new MyTask();
-
-    Thread thread = new Thread(task);
-
-    thread.start();
-
-Example:
-
-    class MyTask implements Runnable {
-
-        public void run() {
-            System.out.println("Task is running");
-        }
-    }
+    // 2. Using Lambda Expression
+    Runnable task = () -> System.out.println("Running task");
+    Thread t2 = new Thread(task);
 
 Technical Explanation:
 
-    Runnable represents the task that should be performed.
-
-    Thread represents the thread that executes the task.
-
-    The Runnable object is passed to a Thread object.
-
-    Calling start() on the Thread starts a new thread,
-    which then executes the run() method of the Runnable object.
-
-    Runnable → Defines the task
-    Thread   → Executes the task
-    start()  → Starts the new thread
-    run()    → Contains the task
+    Runnable  ──(Task Definition)──> Thread(runnable) ──> start() ──> Executed in parallel
 
 Important:
 
-    Runnable does not create a thread by itself.
-
-    It only defines the task.
-
-    A Thread object is required to execute the Runnable task
-    in a separate thread.
+    Runnable does not start a new thread by itself. A Thread instance is needed to execute the Runnable task.
 */
 
-class MyTask implements Runnable {
-
+class CustomRunnable implements Runnable {
     @Override
     public void run() {
-
-        // Task performed by the thread
-        System.out.println("Runnable task is running");
+        System.out.println("CustomRunnable executing via Thread: " + Thread.currentThread().getName());
     }
 }
 
 public class runnableInterface {
 
     public static void main(String[] args) {
- 
-        // Creating the task
-        MyTask task = new MyTask();
 
-        // Creating a thread and giving it the task
-        Thread thread = new Thread(task);
+        // Approach 1: Class implementing Runnable
+        CustomRunnable myTask = new CustomRunnable();
+        Thread thread1 = new Thread(myTask, "RunnableThread-1");
+        thread1.start();
 
-        // Starting the new thread
-        thread.start();
+        // Approach 2: Lambda Expression for Runnable
+        Runnable lambdaTask = () -> {
+            System.out.println("Lambda task executing via Thread: " + Thread.currentThread().getName());
+        };
+
+        Thread thread2 = new Thread(lambdaTask, "LambdaThread-2");
+        thread2.start();
     }
 }
