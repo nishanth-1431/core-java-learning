@@ -1,4 +1,4 @@
-﻿/* 12. Find the sum of all even elements in an array.
+/* 16. Find the sum of all even elements in an array.
    Topics: loops, modulus operator (%), accumulator
 */
 public class problem16 {
