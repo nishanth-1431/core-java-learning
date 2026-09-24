@@ -1,4 +1,4 @@
-﻿/* 11. Count how many times a given element occurs in an array.
+/* 15. Count how many times a given element occurs in an array.
    Topics: loops, counter variable, equality check
 */
 import java.util.Scanner;
