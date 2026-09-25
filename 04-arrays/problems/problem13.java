@@ -1,4 +1,4 @@
-/* 13. Create a 3×3 matrix and print all elements.
+/* 13. Create a 3x3 matrix and print all elements.
    Topics: 2D array declaration, nested loops
 */
 public class problem13 {
@@ -10,8 +10,7 @@ public class problem13 {
             {7, 8, 9}
         };
 
-        System.out.println("3 x 3 Matrix:");
-
+        System.out.println("3x3 Matrix:");
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[i].length; j++) {
                 System.out.print(matrix[i][j] + " ");
