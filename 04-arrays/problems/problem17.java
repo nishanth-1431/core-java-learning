@@ -16,7 +16,6 @@ public class problem17 {
                 sum += matrix[i][j];
             }
         }
-
         System.out.println("Sum of all elements in the matrix: " + sum);
     }
 }
