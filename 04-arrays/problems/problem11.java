@@ -1,22 +1,22 @@
-/* 11. Count the number of even and odd elements in an array.
-   Topics: modulus operator (%), if-else, counter variables
+/* 11. Count how many times a given element occurs in an array.
+   Topics: loops, counter variable, equality check
 */
+import java.util.Scanner;
 public class problem11 {
     public static void main(String[] args) {
-        int[] arr = {42, 17, 89, 5, 63, 28, 91, 14, 56, 37};
+        int[] arr = {3, 5, 3, 8, 3, 2, 5};
+        Scanner sc = new Scanner(System.in);
 
-        int oddcount = 0;
-        int evencount = 0;
+        System.out.print("Enter the element to count: ");
+        int target = sc.nextInt();
 
+        int count = 0;
         for (int i = 0; i < arr.length; i++) {
-            if (arr[i] % 2 == 0) {
-                evencount++;
-            } else {
-                oddcount++;
+            if (arr[i] == target) {
+                count++;
             }
         }
 
-        System.out.println("Even Count = " + evencount);
-        System.out.println("Odd Count = " + oddcount);
+        System.out.println(target + " occurs " + count + " time(s) in the array.");
     }
 }

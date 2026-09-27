@@ -1,0 +1,55 @@
+============================================================
+  COMMIT INSTRUCTIONS FOR ARRAY PROBLEMS (Q12 - Q20)
+  Run these commands one by one from the repo root folder:
+  d:\nishanth\learning\java with ai\
+============================================================
+
+---------- COMMIT 1 ----------
+cd "d:\nishanth\learning\java with ai"
+git add 04-arrays/problems/problem12.java
+git commit -m "solve(arrays): Q12 - find sum of all even elements using accumulator pattern"
+git push
+
+---------- COMMIT 2 ----------
+git add 04-arrays/problems/problem13.java
+git commit -m "solve(2D-arrays): Q13 - create a 3x3 matrix and print all elements using nested loops"
+git push
+
+---------- COMMIT 3 ----------
+git add 04-arrays/problems/problem14.java
+git commit -m "solve(2D-arrays): Q14 - take user input and store elements in a 3x3 matrix"
+git push
+
+---------- COMMIT 4 ----------
+git add 04-arrays/problems/problem15.java
+git commit -m "solve(2D-arrays): Q15 - print matrix row by row using nested loops"
+git push
+
+---------- COMMIT 5 ----------
+git add 04-arrays/problems/problem16.java
+git commit -m "solve(2D-arrays): Q16 - print matrix column by column using nested loops"
+git push
+
+---------- COMMIT 6 ----------
+git add 04-arrays/problems/problem17.java
+git commit -m "solve(2D-arrays): Q17 - find sum of all elements in a matrix using accumulator"
+git push
+
+---------- COMMIT 7 ----------
+git add 04-arrays/problems/problem18.java
+git commit -m "solve(2D-arrays): Q18 - find largest and smallest element in a matrix"
+git push
+
+---------- COMMIT 8 ----------
+git add 04-arrays/problems/problem19.java
+git commit -m "solve(2D-arrays): Q19 - print primary diagonal elements and find their sum (i == j)"
+git push
+
+---------- COMMIT 9 ----------
+git add 04-arrays/problems/problem20.java
+git commit -m "solve(2D-arrays): Q20 - print secondary diagonal elements and find their sum (i+j == size-1)"
+git push
+
+============================================================
+  Done! All 9 problems committed and pushed.
+============================================================
