@@ -9,7 +9,6 @@ public class problem20 {
             {4, 5, 6},
             {7, 8, 9}
         };
-
         int size = matrix.length;
         int sum = 0;
         System.out.print("Secondary diagonal elements: ");
@@ -21,7 +20,6 @@ public class problem20 {
                 }
             }
         }
-
         System.out.println("\nSum of secondary diagonal: " + sum);
     }
 }
