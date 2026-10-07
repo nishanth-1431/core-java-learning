@@ -12,6 +12,5 @@ public class problem25 {
                 oddSum += n;
         }
         System.out.println("total sum of odd numbers in array is "+ oddSum);
-        
     }
 }
