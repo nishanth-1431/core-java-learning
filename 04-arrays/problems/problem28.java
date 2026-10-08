@@ -19,6 +19,5 @@ public class problem28 {
             }
         }
         System.out.println("the array is" + ( isPalindrome ? " palindrome " : " not a palindrome "));
-        
     }
 }
