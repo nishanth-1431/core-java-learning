@@ -12,6 +12,9 @@ public class problem32 {
         int temp = 0;
 
         for(int i = 0 ; i < arr.length ; i++){
+            if(arr[right] != 0){
+
+            }
            
         }
         System.out.println(Arrays.toString(arr));
