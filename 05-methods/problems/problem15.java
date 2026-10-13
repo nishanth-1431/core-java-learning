@@ -26,8 +26,10 @@ public class problem15 {
         }
         public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);
+            
             System.out.print("Emergency level   :");
             int level = sc.nextInt();
+
             System.out.print("Enter your age:");
             int age = sc.nextInt();
             String priority = priority(age, level);
