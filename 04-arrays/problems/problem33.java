@@ -18,6 +18,5 @@ public class problem33 {
             index++;
         }
         System.out.println(Arrays.toString(arr));
-
     }
 }
