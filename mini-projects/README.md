@@ -1,7 +1,5 @@
-# 🏗️ Mini Projects
+# Mini Projects
 
-Hands-on projects combining multiple Core Java topics.
+Small programs built by combining topics from multiple sections. Added here as topics get completed.
 
-Each project folder contains:
-- Source code
-- A brief description of what it does
+Each project is in its own folder with the source code and a short description of what it does.

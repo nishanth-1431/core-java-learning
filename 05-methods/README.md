@@ -1,7 +1,11 @@
-# ⚙️ 05 - Methods
+# 05 - Methods
 
-Programs covering methods/functions in Java:
-- Defining methods
-- Parameters and arguments
-- Return values
-- Method overloading
+Breaking a big program into smaller reusable blocks of code.
+
+Topics covered:
+- Creating and calling methods
+- Parameters and arguments — passing values into a method
+- Return values — getting something back from a method
+- Method overloading — same name, different parameters
+
+The `problems/` folder has practice questions for this section.
